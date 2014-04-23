@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<!-- Uso de Tags JSF: Arvore de Componente  -->
+<f:view contentType="text/html" />
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Turismo</title>
+<h:outputStylesheet library="css" name="grid.css" />
+<h:outputStylesheet library="css" name="style.css" />
+</head>
+<body>
+	<div id="blocoConteudo">
+		<div class="conteiner">
+			<h:form id="dados">
+				<fieldset>
+					<h2>Pagina Inicial</h2>
+					<h:panelGrid columns="2">
+						<h:commandButton value="Cadastrar Usuario" action="cad-usuario" />
+						<h:commandButton value="Cadastrar Lugar" action="cad-lugar" />
+					</h:panelGrid>
+				</fieldset>
+			</h:form>
+		</div>
+	</div>
+	
+</body>
+</html>
